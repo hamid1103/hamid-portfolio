@@ -2,6 +2,7 @@ var profile = document.getElementById('profile')
 var skill = document.getElementById('skills')
 var contact = document.getElementById('contact')
 var projects = document.getElementById('projects')
+var overlay = document.getElementById('Overlay')
 
 function show(choice){
 if (choice == 1){
@@ -25,4 +26,16 @@ if (choice == 1){
     contact.style.display = 'block';
     projects.style.display = 'none';
 }
+}
+
+function togover() {
+    let tog = true
+    if(!tog){
+        tog = true;
+        overlay.style.display = 'block';
+    }else{
+        tog = false;
+        overlay.style.display = 'none';
+    }
+
 }

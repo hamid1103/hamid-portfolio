@@ -7,14 +7,18 @@ body{
 }
 
 #skills{
-display: none;
+    display: none;
 }
+
 #profile{
-display: block;
+    margin-top: -1vw;
+    display: block;
 }
+
 #projects{
-display: none;
+    display: none;
 }
+
 #contact{
     display: none;
 }
@@ -78,7 +82,7 @@ hr{
     border-color: #1C3879;
 }
 
-.Overlay{
+#Overlay{
     position: fixed; /* Sit on top of the page content */
     display: none; /* Hidden by default */
     width: 100%; /* Full width (cover the whole page) */
@@ -91,6 +95,12 @@ hr{
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
     pointer-events: none;
+}
+
+#Overlay p {
+    font-size: 2vw;
+    font-family: 'Permanent Marker', cursive;
+    color: #E8FFC2;
 }
 
 .Top{
