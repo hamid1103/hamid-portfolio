@@ -154,7 +154,8 @@ hr{
 
 #Name{
     position: absolute;
-    left: 41%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding-top: 10px;
     color: #E8FFC2;
     font-size: 5em;
