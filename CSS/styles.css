@@ -84,7 +84,7 @@ hr{
 
 #Overlay{
     position: fixed; /* Sit on top of the page content */
-    display: none; /* Hidden by default */
+    display: block; /* Hidden by default */
     width: 100%; /* Full width (cover the whole page) */
     height: 100%; /* Full height (cover the whole page) */
     top: 0;
@@ -94,7 +94,7 @@ hr{
     background-color: rgba(0,0,0,0.5); /* Black background with opacity */
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
-    pointer-events: none;
+
 }
 
 #Overlay p {
@@ -123,6 +123,18 @@ hr{
     margin-top: -0.25vw;
     margin-bottom: -2vw;
     transition:height 1s ease-in-out;
+}
+#CookieClick{
+    background-color: antiquewhite;
+    text-align: left;
+    font-family: 'Architects Daughter', cursive;
+    height: 5vw;
+    width: 100vw;
+}
+#CookieClick p{
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    font-size: 1vw;
 }
 
 #Bottom{
@@ -180,4 +192,19 @@ hr{
 .linuxpng{
     height: 100px;
     width: 100px;
+}
+
+#CookieClick button{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+    transition-duration: 0.2s;
+    background-color: #2FA4FF;
+    border-style: none;
+    height: 34px;
+    width: 24%;
+    position: absolute;
+    left: 38vw;
+}
+#CookieClick button:hover{
+    background-color: aliceblue;
 }
