@@ -97,6 +97,13 @@ hr{
 
 }
 
+#titleart {
+    position: relative;
+    top: 12vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 #Overlay p {
     font-size: 2vw;
     font-family: 'Permanent Marker', cursive;
@@ -106,9 +113,7 @@ hr{
 .Top{
     display: flex;
     position: relative;
-    padding-top: 10px;
     background-color: #0E185F;
-    height: 500px;
     width: 100%;
 }
 
