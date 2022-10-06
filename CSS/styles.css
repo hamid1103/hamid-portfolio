@@ -6,51 +6,110 @@ body{
     text-align: center;
 }
 
-#skills{
-    display: none;
+#Container{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
-#profile{
-    margin-top: -1vw;
-    display: block;
+@media screen and (min-width: 320px) and (max-width: 768px){
+    section button{
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1.7em;
+        transition-duration: 0.2s;
+        background-color: #00FFDD;
+        border-style: none;
+        height: 34px;
+        width: 24%;
+    }
+    h2,h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 2em;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 15vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .skill-row p{
+        font-size: 1em;
+    }
 }
 
-#projects{
-    display: none;
+@media screen and (min-width: 768px){
+    section button{
+        font-family: 'Architects Daughter', cursive;
+        font-size: 1.5em;
+        transition-duration: 0.2s;
+        background-color: #00FFDD;
+        border-style: none;
+        height: 34px;
+        width: 24%;
+    }
+    h2,h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 2em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 15vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .skill-row p{
+        font-size: 1em;
+    }
 }
 
-#contact{
-    display: none;
+@media screen and (min-width: 1200px){
+    h2,h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 2em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 10vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .skill-row p{
+        font-size: 1.2em;
+    }
 }
 
-#pfp{
-    position: relative;
-    display: block;
-    left: 59%;
-    width: 7em;
-    top: 6em;
-    border-radius: 10em;
-    border-style: solid;
-    border-width: 5px;
+@media screen and (min-width: 2560px){
+    h2,h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 2em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 10vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
 }
 
-h2,h3{
-    color: #E8FFC2;
-    text-align: center;
-    font-size: 32px;
-}
-
-button{
-    font-family: 'Architects Daughter', cursive;
-    font-size: 20px;
-    transition-duration: 0.2s;
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     background-color: #00FFDD;
-    border-style: none;
-    height: 34px;
-    width: 24%;
 }
 
-button:hover{
+section button:hover{
     background-color: #2F10FF;
 }
 
@@ -68,10 +127,6 @@ h4{
     text-align: center;
     font-size: 25px;
     margin-bottom: 10px;
-}
-
-p{
-    text-align: center;
 }
 
 hr{
@@ -95,13 +150,6 @@ hr{
     z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
     cursor: pointer; /* Add a pointer on hover */
 
-}
-
-#titleart {
-    position: relative;
-    top: 17vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 #Overlay p {
@@ -129,6 +177,85 @@ hr{
     margin-bottom: -2vw;
     transition:height 1s ease-in-out;
 }
+#profile{
+    padding: 1vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+#profile p{
+    margin: 0;
+}
+#skills{
+    padding: 2vw;
+    display: none;
+    flex-direction: column;
+}
+#skills #SkillsContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.skill-row{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-basis: 50px;
+}
+
+#projects{
+    display: none;
+    flex-direction: column;
+    padding: 2vw;
+    min-height: auto;
+}
+#contact{
+    padding: 1vw;
+    display: none;
+    flex-direction: column;
+}
+#contact nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#contact nav img{
+    width: 10em;
+    height: 10em;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0);}
+    50%  { transform: translateY(-25px);}
+    100% { transform: translateY(0);}
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+#contact nav img:hover{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    height: 10em;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+#pfp{
+    position: relative;
+    display: block;
+    left: 59%;
+    width: 7em;
+    top: 6em;
+    border-radius: 10em;
+    border-style: solid;
+    border-width: 5px;
+}
+
 #CookieClick{
     background-color: antiquewhite;
     text-align: left;
@@ -139,7 +266,8 @@ hr{
 #CookieClick p{
     font-family: 'Architects Daughter', cursive;
     color: black;
-    font-size: 1vw;
+    font-size: 1em;
+    text-align: center;
 }
 
 #Bottom{

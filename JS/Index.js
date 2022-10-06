@@ -6,24 +6,24 @@ var overlay = document.getElementById('Overlay')
 
 function show(choice){
 if (choice == 1){
-    profile.style.display = 'block';
+    profile.style.display = 'flex';
     skill.style.display = 'none';
     contact.style.display = 'none';
     projects.style.display = 'none';
 }else if (choice == 2){
     profile.style.display = 'none';
-    skill.style.display = 'block';
+    skill.style.display = 'flex';
     contact.style.display = 'none';
     projects.style.display = 'none';
 }else if(choice == 3) {
     profile.style.display = 'none';
     skill.style.display = 'none';
     contact.style.display = 'none';
-    projects.style.display = 'block';
+    projects.style.display = 'flex';
 }else if(choice == 4){
     profile.style.display = 'none';
     skill.style.display = 'none';
-    contact.style.display = 'block';
+    contact.style.display = 'flex';
     projects.style.display = 'none';
 }
 }
