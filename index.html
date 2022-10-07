@@ -4,12 +4,17 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Overlock&family=Permanent+Marker&family=Silkscreen&family=Ubuntu+Mono&display=swap" rel="stylesheet">
-
         <meta charset="UTF-8">
         <title>Hamid Saib - Portfolio</title>
         <link rel="stylesheet" href="CSS/styles.css">
     </head>
-    <body>
+    <body onload="setmid()">
+    <div id="Overlay">
+        <div id="CookieClick">
+            <p>By accessing this website u agree to... cookies... 'n thing</p>
+            <button onclick="togover()">Accept</button>
+        </div>
+    </div>
     <a id="top"> </a>
     <section id="Container">
         <div class="Top">
@@ -17,7 +22,7 @@
         </div>
 
         <section class="Navi" style="position: relative;">
-            <button onclick="show(1)">Profile</button><button onclick="show(2)">Skills</button><button onclick="show(3)">Projects</button><button onclick="show(4)">Contact</button>
+            <button onclick="show(1)" href="#profile">Profile</button><button onclick="show(2)" href="#skills">Skills</button><button onclick="show(3)" href="projects">Projects</button><button onclick="show(4)" href="contact">Contact</button>
         </section>
         <div class="Mid">
             <div id="profile">
@@ -53,10 +58,12 @@
             <div id="projects">
                 <h2 style="margin-top: 0;">My Projects</h2>
                 <nav>
-
+                    <article>
+                        <h3>Aimbot</h3>
+                        <img src="https://media.discordapp.net/attachments/1021394074084851712/1026471954175246426/IMG20221003143127.jpg?width=717&height=538" alt="robot pic"/>
+                        <p>Een robot die dient als een rijdende laser target gemaakt voor CLE1</p>
+                    </article>
                 </nav>
-                <hr>
-
             </div>
             <div id="contact">
                 <h2 style="margin-top: 0;">Contact</h2>
@@ -68,7 +75,6 @@
                     <a href="mailto:inergoict@gmail.com"><img src="https://cdn.freebiesupply.com/logos/large/2x/hogeschool-rotterdam-1-logo-png-transparent.png"></a>
                     <a href="https://www.youtube.com/channel/UC9HH_RxN3F79DdvrvAZSDnw"><img src="https://www.freepnglogos.com/uploads/video-youtube-icon-27.png"></a>
                 </nav>
-                <hr>
             </div>
         </div>
 
@@ -80,12 +86,6 @@
             <a href="#top"><img src="docs/assets/img/top.png" alt="topofpage" style="width: 2em; background-color: gray; border-radius: 3em;"></a>
         </div>
     </section>
-    <div id="Overlay">
-        <div id="CookieClick">
-            <p>By accessing this website u agree to... cookies... 'n thing</p>
-            <button onclick="togover()">Accept</button>
-        </div>
-    </div>
     <script type = "text/javascript" src="JS/Index.js"></script>
     </body>
 </html>
