@@ -15,7 +15,7 @@ body{
 
 @media screen and (min-width: 320px) and (max-width: 768px){
     section button{
-        font-family: 'Architects Daughter', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.7em;
         transition-duration: 0.2s;
         background-color: #00FFDD;
@@ -41,11 +41,24 @@ body{
     .skill-row p{
         font-size: 1em;
     }
+    .fillerNavi{
+        background-color: #00FFDD;
+        height: 34px;
+        width: 2%;
+    }
+    .Navi{
+        max-height: 4vw;
+    }
+
+    .Navi button {
+        max-height: 4vw;
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 768px){
     section button{
-        font-family: 'Architects Daughter', cursive;
+        font-family: 'Roboto', sans-serif;
         font-size: 1.5em;
         transition-duration: 0.2s;
         background-color: #00FFDD;
@@ -68,6 +81,19 @@ body{
     .skill-row p{
         font-size: 1em;
     }
+    .fillerNavi{
+        background-color: #00FFDD;
+        height: 34px;
+        width: 2%;
+    }
+    .Navi{
+        max-height: 4vw;
+    }
+
+    .Navi button {
+        max-height: 4vw;
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 1200px){
@@ -86,6 +112,19 @@ body{
     .skill-row p{
         font-size: 1.2em;
     }
+    .fillerNavi{
+        background-color: #00FFDD;
+        height: 34px;
+        width: 2%;
+    }
+    .Navi{
+        max-height: 4vw;
+    }
+
+    .Navi button {
+        max-height: 4vw;
+        font-size: 2em;
+    }
 }
 
 @media screen and (min-width: 2560px){
@@ -100,6 +139,19 @@ body{
         top: 10vw;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    .fillerNavi{
+        background-color: #00FFDD;
+        height: 34px;
+        width: 2%;
+    }
+    .Navi{
+        max-height: 4vw;
+    }
+
+    .Navi button {
+        max-height: 4vw;
+        font-size: 2em;
     }
 }
 
@@ -118,11 +170,7 @@ td{
     text-align: left;
 }
 
-.fillerNavi{
-    background-color: #00FFDD;
-    height: 34px;
-    width: 2%;
-}
+
 
 h4{
     text-align: center;
@@ -164,14 +212,6 @@ hr{
     position: relative;
     background-color: #0E185F;
     width: 100%;
-}
-
-.Navi{
-    max-height: 2vw;
-}
-
-.Navi button {
-    max-height: 2vw;
 }
 
 .Mid{
