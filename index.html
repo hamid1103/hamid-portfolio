@@ -19,19 +19,21 @@
         </div>
     </div>
     <a id="top"> </a>
-    <section id="Container">
-        <div class="Top">
+    <main id="Container">
+        <header class="Top">
             <img src="docs/assets/img/Title.png" alt="titleart" id="titleart">
-        </div>
+        </header>
 
         <nav class="Navi">
             <button onclick="show(1)" href="#profile">Profile</button><button onclick="show(2)" href="#skills">Skills</button><button onclick="show(3)" href="projects">Projects</button><button onclick="show(4)" href="contact">Contact</button>
         </nav>
-        <div class="Mid">
+        <section class="Mid">
             <div id="profile">
-                <img id="pfp" src="docs/assets/img/portrait.jpg" alt="profile pic lamao" style="margin-top: 3px;">
+                <div if="pfp">
+                    <img id="pfpimg" src="docs/assets/img/portrait.jpg" alt="profile pic lamao">
+                </div>
                 <h2>Hello...</h2>
-                <h4>I am Hamid Saib. I'm a dude who programs, games, eats, shits and sleeps. <br>No, I am NOT gonna cut my hair!</h4>
+                <h4>I am Hamid Saib.<br>As you can see, I'm not a visual designer</h4>
                 <h3>General Info</h3>
                 <p>Location: Breda</p>
                 <p>Study: Creative Media & Game Technology(CMGT) - Hogeschool Rotterdam</p>
@@ -39,7 +41,7 @@
                 <br>
             </div>
             <div id="skills">
-                <h2 style="margin-top: 0;">My Skills.</h2>
+                <h2>My Skills.</h2>
                 <div id="SkillsContainer">
                 <div class="skill-row">
                     <img class="linuxpng" src="docs/assets/img/linux-platform.png" alt="linux png">
@@ -64,7 +66,7 @@
                     <article>
                         <h3>Aimbot</h3>
                         <img src="https://media.discordapp.net/attachments/1021394074084851712/1026471954175246426/IMG20221003143127.jpg?width=717&height=538" alt="robot pic"/>
-                        <p>Een robot die dient als een rijdende laser target gemaakt voor CLE1</p>
+                        <p>A driving laser target robot made for CLE 1</p>
                     </article>
                 </nav>
             </div>
@@ -75,11 +77,11 @@
                     <a href="https://steamcommunity.com/profiles/76561198311784290"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Breezeicons-apps-48-steam.svg/1024px-Breezeicons-apps-48-steam.svg.png"></a>
                     <a href="https://github.com/hamid1103"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
                     <a href="mailto:hamid.en.hidde@gmail.com"><img src="https://iconarchive.com/download/i99359/dtafalonso/android-lollipop/Gmail.ico"></a>
-                    <a href="mailto:inergoict@gmail.com"><img src="https://cdn.freebiesupply.com/logos/large/2x/hogeschool-rotterdam-1-logo-png-transparent.png"></a>
+                    <a href="mailto:1062604@hr.nl"><img src="https://cdn.freebiesupply.com/logos/large/2x/hogeschool-rotterdam-1-logo-png-transparent.png"></a>
                     <a href="https://www.youtube.com/channel/UC9HH_RxN3F79DdvrvAZSDnw"><img src="https://www.freepnglogos.com/uploads/video-youtube-icon-27.png"></a>
                 </nav>
             </div>
-        </div>
+        </section>
 
         <footer id="Bottom">
             <p>Hamid Copyright @2022</p>
@@ -88,7 +90,7 @@
         <div class="Back2Top">
             <a href="#top"><img src="docs/assets/img/top.png" alt="topofpage" style="width: 2em; background-color: gray; border-radius: 3em;"></a>
         </div>
-    </section>
+    </main>
     <script type = "text/javascript" src="JS/Index.js"></script>
     </body>
 </html>
