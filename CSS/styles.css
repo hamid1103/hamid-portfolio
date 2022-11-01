@@ -83,15 +83,6 @@ body{
     .skill-row p{
         font-size: 1em;
     }
-    .fillerNavi{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
-        background-color: #00FFDD;
-        height: 34px;
-        width: 2%;
-    }
     .Navi{
         background-color: #00FFDD;
         display: flex;
