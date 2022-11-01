@@ -68,10 +68,15 @@
                         <img src="https://media.discordapp.net/attachments/1021394074084851712/1026471954175246426/IMG20221003143127.jpg?width=717&height=538" alt="robot pic"/>
                         <p>A driving laser target robot made for CLE 1</p>
                     </article>
+                    <article>
+                        <h3>Email Server</h3>
+                        <img src="docs/assets/img/citadel.png" alt="citadel server img">
+                        <p>A private mail server running on a Raspberry Pi 3</p>
+                    </article>
                 </nav>
             </div>
             <div id="contact">
-                <h2 style="margin-top: 0;">Contact/Links</h2>
+                <h2>Contact/Links</h2>
                 <nav>
                     <a href="https://www.twitch.tv/arcadianfl4m3"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png"></a>
                     <a href="https://steamcommunity.com/profiles/76561198311784290"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Breezeicons-apps-48-steam.svg/1024px-Breezeicons-apps-48-steam.svg.png"></a>
@@ -80,6 +85,26 @@
                     <a href="mailto:1062604@hr.nl"><img src="https://cdn.freebiesupply.com/logos/large/2x/hogeschool-rotterdam-1-logo-png-transparent.png"></a>
                     <a href="https://www.youtube.com/channel/UC9HH_RxN3F79DdvrvAZSDnw"><img src="https://www.freepnglogos.com/uploads/video-youtube-icon-27.png"></a>
                 </nav>
+                <form>
+                    <div class="formrule">
+                        <label for="name">Your Name: </label>
+                        <input type="text" id="fname" name="name" value="John Sumitho">
+                    </div>
+                    <div class="formrule">
+                        <label for="recipient">Choose Recipient: </label>
+                        <select name="recipient" id="selRec">
+                            <option value="admin@arcadianflame.nl">admin@arcadianflame.nl</option>
+                            <option value="1062604@hr.nl">1062604@hr.nl</option>
+                            <option value="hamid.en.hidde@gmail.com">hamid.en.hidde@gmail.com</option>
+                            <option value="arcadianflame@arcadianflame.nl">arcadianflame@arcadianflame.nl</option>
+                        </select>
+                    </div>
+                    <div class="formrule">
+                        <label for="question">Message</label>
+                        <textarea id="question" name="question" rows="7" cols="30"></textarea>
+                    </div>
+                    <input type="submit" value="Submit" id="SubmitButton">
+                </form>
             </div>
         </section>
 
