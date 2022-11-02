@@ -238,6 +238,11 @@ select {
     border: 0;
 }
 
+input:blank{
+    border: 3px solid black;
+    background-color: white;
+}
+
 input:invalid {
     border: 3px solid red;
     background-color:pink;
@@ -298,6 +303,10 @@ hr{
     font-size: 2vw;
     font-family: 'Permanent Marker', cursive;
     color: #E8FFC2;
+}
+
+#ArrToTop{
+    width: 2em; background-color: gray; border-radius: 3em;
 }
 
 header{
