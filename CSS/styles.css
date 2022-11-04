@@ -20,10 +20,15 @@ body{
         justify-content: space-evenly;
         background-color: #00FFDD;
     }
-    h2,h3{
+    h2{
         color: #E8FFC2;
         text-align: center;
         font-size: 4em;
+    }
+    h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 3.5em;
     }
     p{
         font-size: 1.3em;
