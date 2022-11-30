@@ -1,128 +1,31 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-        </style>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Overlock&family=Permanent+Marker&family=Silkscreen&family=Ubuntu+Mono&display=swap" rel="stylesheet">
-        <meta charset="UTF-8">
-        <title>Hamid Saib - Portfolio</title>
-        <link rel="stylesheet" href="CSS/styles.css">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    </head>
-    <body onload="setmid()">
-    <div id="Overlay">
-        <div id="CookieClick">
-            <p>By accessing this website u agree to... cookies... 'n thing</p>
-            <button onclick="togover()">Accept</button>
-        </div>
-    </div>
-    <a id="top"> </a>
-    <main id="Container">
-        <header class="Top">
-            <img src="docs/assets/img/Title.png" alt="titleart" id="titleart">
-        </header>
+    <!--Tailwind setup-->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                    }
+                }
+            }
+        }
+    </script>
 
-        <nav class="Navi">
-            <button onclick="show(1)" href="#profile">Profile</button><button onclick="show(2)" href="#skills">Skills</button><button onclick="show(3)" href="projects">Projects</button><button onclick="show(4)" href="contact">Contact</button>
-        </nav>
-        <section class="Mid">
-            <div id="profile">
-                <div if="pfp">
-                    <img id="pfpimg" src="docs/assets/img/portrait.jpg" alt="profile pic lamao">
-                </div>
-                <h2>Hello...</h2>
-                <h4>I am Hamid Saib.<br>As you can see, I'm not a visual designer</h4>
-                <h3>General Info</h3>
-                <p>Location: Breda</p>
-                <p>Study: Creative Media & Game Technology(CMGT) - Hogeschool Rotterdam</p>
-                <p>Born: 10 July 2005</p>
-                <br>
-            </div>
-            <div id="skills">
-                <h2>My Skills.</h2>
-                <div id="SkillsContainer">
-                <div class="skill-row">
-                    <img class="linuxpng" src="docs/assets/img/linux-platform.png" alt="linux png">
-                    <h3>I use arch btw</h3>
-                    <p>I am a pretty experienced linux user, having tried multiple different distro's on all kinds of devices. I finally settled for arch.</p>
-                </div>
-                <div class="skill-row">
-                    <img src="docs/assets/img/html.png" alt="html png" style="height: 120px; width: 100px;">
-                    <h3>Web Development</h3>
-                    <p>I'm a beginning in web development, learning everything that's to do with webdev. Php, JS, css, html, nodeJS, etc.</p>
-                </div>
-                <div class="skill-row">
-                    <img src="docs/assets/img/java.png" alt="java png" style="height: 128px; width: 128px;">
-                    <h3>Java</h3>
-                    <p>I know my way around java. I can read it... maybe write a bit with the right api's. Most of my XP comes from minecraft mods and plugins</p>
-                </div>
-                </div>
-            </div>
-            <div id="projects">
-                <h2>My Projects</h2>
-                <nav>
-                    <article>
-                        <h3>Aimbot</h3>
-                        <img src="https://media.discordapp.net/attachments/1021394074084851712/1026471954175246426/IMG20221003143127.jpg?width=717&height=538" alt="robot pic"/>
-                        <p>A driving laser target robot made for CLE 1</p>
-                    </article>
-                    <article>
-                        <h3>Email Server</h3>
-                        <img src="docs/assets/img/citadel.png" alt="citadel server img">
-                        <p>A private mail server running on a Raspberry Pi 3</p>
-                    </article>
-                </nav>
-            </div>
-            <div id="contact">
-                <h2>Contact/Links</h2>
-                <nav>
-                    <a href="https://www.twitch.tv/arcadianfl4m3"><img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png"></a>
-                    <a href="https://steamcommunity.com/profiles/76561198311784290"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Breezeicons-apps-48-steam.svg/1024px-Breezeicons-apps-48-steam.svg.png"></a>
-                    <a href="https://github.com/hamid1103"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png"></a>
-                    <a href="mailto:hamid.en.hidde@gmail.com"><img src="https://iconarchive.com/download/i99359/dtafalonso/android-lollipop/Gmail.ico"></a>
-                    <a href="mailto:1062604@hr.nl"><img src="https://cdn.freebiesupply.com/logos/large/2x/hogeschool-rotterdam-1-logo-png-transparent.png"></a>
-                    <a href="https://www.youtube.com/channel/UC9HH_RxN3F79DdvrvAZSDnw"><img src="https://www.freepnglogos.com/uploads/video-youtube-icon-27.png"></a>
-                </nav>
-                <div id="formdiv">
-                <form>
-                    <div class="formrule">
-                        <label for="fname">Your Name: </label>
-                        <input type="text" id="fname" name="fname" value="John Sumitho" required>
-                    </div>
-                    <div class="formrule">
-                        <label for="femail">Your Email: </label>
-                        <input type="email" id="femail" id="femail" required>
-                    </div>
-                    <div class="formrule">
-                        <label for="recipient">Choose Recipient: </label>
-                        <select name="recipient" id="selRec">
-                            <option value="admin@arcadianflame.nl">admin@arcadianflame.nl</option>
-                            <option value="1062604@hr.nl">1062604@hr.nl</option>
-                            <option value="hamid.en.hidde@gmail.com">hamid.en.hidde@gmail.com</option>
-                            <option value="arcadianflame@arcadianflame.nl">arcadianflame@arcadianflame.nl</option>
-                        </select>
-                    </div>
-                    <div class="formrule">
-                        <label for="question">Message</label>
-                        <textarea id="question" name="question" rows="7" cols="30"></textarea>
-                    </div>
-                    <input type="submit" value="Submit" id="SubmitButton">
-                </form>
-                </div>
-            </div>
-        </section>
+    <title>Hamid's portfolio</title>
+</head>
+<body>
+<h1 class="text-3xl font-bold underline">
+    Hello world!
+</h1>
 
-        <footer id="Bottom">
-            <p>Hamid Copyright @2022</p>
-        </footer>
 
-        <div class="Back2Top">
-            <a href="#top"><img src="docs/assets/img/top.png" id="ArrToTop" alt="topofpage"></a>
-        </div>
-    </main>
-    <script type = "text/javascript" src="JS/Index.js"></script>
-    </body>
+</body>
 </html>
