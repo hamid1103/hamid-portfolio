@@ -1,0 +1,38 @@
+/*
+Mobile
+*/
+@media (min-width : 320px) {
+    /*Hero stuff*/
+    #heroIMGholder{
+
+    }
+    #heroIMG{
+        position: absolute;
+        right: 0%;
+        top: 0%;
+        background-color: gold;
+        width: 30vh;
+        height: 21.1vh;
+    }
+}
+
+/*
+PC
+*/
+@media (min-width : 770px) {
+    /*Hero stuff*/
+    #heroIMGholder{
+
+    }
+    #heroIMG{
+        position: absolute;
+        right: 5%;
+        top: 10%;
+        background-color: gold;
+        width: 45vh;
+        height: 40vh;
+    }
+    #herofootnav{
+        margin-left: 2rem;
+    }
+}
