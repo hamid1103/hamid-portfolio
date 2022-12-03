@@ -5,10 +5,89 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="CSS/mystyles.css"> <!--customized bulma-->
-    <link rel="stylesheet" href="CSS/customstyles.css"> <!--new custom css for new index-->
+    <!--<link rel="stylesheet" href="CSS/customstyles.css">--> <!--new custom css for new index-->
     <title>Hamid's portfolio</title>
 </head>
 <body>
+
+<div id="divident" style="position: absolute; display: block; max-width: 100vh; max-height: 100vh; border: #b7b9b2 solid 5px; z-index: 100;">
+    <div id="dividentheader" style="width: 100%; ">
+        Drag me
+    </div>
+    <style contenteditable="true" style="position: absolute; display: block; white-space: pre; border: #b7b9b2 solid 10px; background-color: #0E185F; max-width: 100vh; z-index: 100;" >
+        html {
+            background-color: whitesmoke;
+        }
+        body{
+            height: 100%;
+            border: gold solid 3px;
+            border-radius:20px;
+        }
+
+        /*Hero stuff*/
+        #heroIMGholder{
+
+        }
+        #heroIMG{
+            position: absolute;
+            right: 5%;
+            top: 10%;
+            background-color: gold;
+            width: 45vh;
+            height: 40vh;
+        }
+        #herofootnav{
+            margin-left: 2rem;
+        }
+    </style>
+</div>
+
+<script>
+    // Make the DIV element draggable:
+    dragElement(document.getElementById("divident"));
+
+    function dragElement(elmnt) {
+        var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
+        if (document.getElementById(elmnt.id + "header")) {
+            // if present, the header is where you move the DIV from:
+            document.getElementById(elmnt.id + "header").onmousedown = dragMouseDown;
+        } else {
+            // otherwise, move the DIV from anywhere inside the DIV:
+            elmnt.onmousedown = dragMouseDown;
+        }
+
+        function dragMouseDown(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // get the mouse cursor position at startup:
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            document.onmouseup = closeDragElement;
+            // call a function whenever the cursor moves:
+            document.onmousemove = elementDrag;
+        }
+
+        function elementDrag(e) {
+            e = e || window.event;
+            e.preventDefault();
+            // calculate the new cursor position:
+            pos1 = pos3 - e.clientX;
+            pos2 = pos4 - e.clientY;
+            pos3 = e.clientX;
+            pos4 = e.clientY;
+            // set the element's new position:
+            elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
+            elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
+        }
+
+        function closeDragElement() {
+            // stop moving when mouse button is released:
+            document.onmouseup = null;
+            document.onmousemove = null;
+        }
+    }
+</script>
+
 <section class="hero is-primary">
     <div class="hero-body">
         <p class="title has-text-danger has-text-left">

@@ -20,6 +20,13 @@ Mobile
 PC
 */
 @media (min-width : 770px) {
+    /*Body stuff*/
+    body{
+        height: 100%;
+        border: gold solid 3px;
+        border-radius:20px;
+    }
+
     /*Hero stuff*/
     #heroIMGholder{
 
