@@ -1,0 +1,528 @@
+/* Color Scheme
+https://colorhunt.co/palette/0e185f2fa4ff00ffdde8ffc2
+*/
+body{
+    margin: 0;
+    text-align: center;
+}
+
+#Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px){
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #00FFDD;
+    }
+    h2{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 4em;
+    }
+    h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 3.5em;
+    }
+    p{
+        font-size: 1.3em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 15vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .skill-row p{
+        font-size: 1em;
+    }
+    .fillerNavi{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #00FFDD;
+        max-height: 4vw;
+    }
+    .Navi{
+        background-color: #00FFDD;
+        display: flex;
+        max-height: 4vw;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        justify-content: space-between;
+        top: 0;
+    }
+
+    .Navi button {
+        font-family: 'Roboto', sans-serif;
+        transition-duration: 0.2s;
+        background-color: #00FFDD;
+        border-style: none;
+        width: 24%;
+        max-height: 4vw;
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 800px){
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: #00FFDD;
+    }
+    h2{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 4em;
+    }
+    h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 15vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .skill-row p{
+        font-size: 1em;
+    }
+    .Navi{
+        background-color: #00FFDD;
+        display: flex;
+        max-height: 4vw;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        justify-content: space-between;
+        top: 0;
+    }
+
+    .Navi button {
+        font-family: 'Roboto', sans-serif;
+        transition-duration: 0.2s;
+        background-color: #00FFDD;
+        border-style: none;
+        width: 24%;
+        max-height: 4vw;
+        font-size: 2em;
+    }
+
+    #profile p{
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    h2{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 4em;
+    }
+    h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 2.5em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 10vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .skill-row p{
+        font-size: 1.2em;
+    }
+    .fillerNavi{
+        background-color: #00FFDD;
+        height: 34px;
+        width: 2%;
+    }
+    .Navi{
+        background-color: #00FFDD;
+        display: flex;
+        max-height: 4vw;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        justify-content: space-between;
+        top: 0;
+    }
+
+    .Navi button {
+        font-family: 'Roboto', sans-serif;
+        transition-duration: 0.2s;
+        background-color: #00FFDD;
+        border-style: none;
+        width: 24%;
+        max-height: 4vw;
+        font-size: 2em;
+    }
+}
+
+@media screen and (min-width: 2560px){
+    h2,h3{
+        color: #E8FFC2;
+        text-align: center;
+        font-size: 4em;
+    }
+    #titleart {
+        position: relative;
+        width: 40em;
+        top: 10vw;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .fillerNavi{
+        background-color: #00FFDD;
+        height: 34px;
+        width: 2%;
+    }
+    .Navi{
+        background-color: #00FFDD;
+        display: flex;
+        justify-content: space-between;
+        max-height: 4vw;
+        position: -webkit-sticky; /* Safari */
+        position: sticky;
+        top: 0;
+    }
+
+    .Navi button {
+        font-family: 'Roboto', sans-serif;
+        transition-duration: 0.2s;
+        background-color: #00FFDD;
+        border-style: none;
+        width: 24%;
+        max-height: 4vw;
+        font-size: 2em;
+    }
+}
+/*Form css*/
+#formdiv{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+form{
+    width: 40vw;
+    padding: 1vh;
+    border-style: solid;
+    border-width: 2vm;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #E8FFC2;
+}
+
+.formrule{
+    display: flex;
+    justify-content: space-between;
+}
+
+#SubmitButton{
+    font-family: 'Roboto', sans-serif;
+    transition-duration: 0.2s;
+    background-color: #00FFDD;
+    border-style: none;
+    width: 24%;
+    max-height: 4vw;
+    font-size: 2em;
+}
+
+#SubmitButton:hover{
+    background-color: #2F10FF;
+}
+
+label{
+    font-family: sans-serif;
+}
+
+input[type=text] {
+    padding:2px;
+    font-size:1em;
+}
+
+select {
+    padding: 6px;
+    font-size: 1em;
+    border: 0;
+}
+
+input:blank{
+    border: 3px solid black;
+    background-color: white;
+}
+
+input:invalid {
+    border: 3px solid red;
+    background-color:pink;
+}
+input:valid {
+    border: 3px solid green;
+    background-color:lightgreen;
+}
+
+/*Website css*/
+
+.Navi button:hover{
+    background-color: #2F10FF;
+}
+
+td{
+    text-align: left;
+}
+
+
+
+h4{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+hr{
+    border-style: dotted none none none;
+    border-width: 5px;
+    height: 5px;
+    width: 10%;
+    border-color: #1C3879;
+}
+
+#Overlay{
+    position: fixed; /* Sit on top of the page content */
+    display: block; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+    cursor: pointer; /* Add a pointer on hover */
+
+}
+
+#Overlay p {
+    font-size: 2vw;
+    font-family: 'Permanent Marker', cursive;
+    color: #E8FFC2;
+}
+
+#ArrToTop{
+    width: 2em; background-color: gray; border-radius: 3em;
+}
+
+header{
+    display: flex;
+    position: relative;
+    background-color: #0E185F;
+    width: 100%;
+}
+
+.Mid{
+    background-color: #2FA4FF;
+    width: 100%;
+    padding-bottom: 10px;
+    margin-top: -0.25vw;
+    margin-bottom: -2vw;
+    transition:height 1s ease-in-out;
+    min-height: 100vh;
+}
+#profile{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+#profile p{
+    margin: 0;
+}
+#skills{
+    padding: 2vw;
+    display: none;
+    flex-direction: column;
+}
+#skills #SkillsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.skill-row{
+    border-style: solid;
+    background-color: #E8FFC2;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-grow: 2;
+    flex-grow: 2;
+    padding: 10px;
+}
+.skill-row h3{
+    color: #0E185F;
+}
+
+#projects{
+    display: none;
+    flex-direction: column;
+    padding: 2vw;
+    min-height: auto;
+}
+#projects nav{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 2;
+    align-items: baseline;
+    justify-content: space-between;
+}
+#projects nav article{
+    border-style: solid;
+    background-color: #E8FFC2;
+    flex-grow: 2;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#projects nav article img{
+    height: 12vw;
+    width: 15vw;
+}
+#projects nav article h3{
+    color: black;
+}
+#contact{
+    padding: 1vw;
+    display: none;
+    flex-direction: column;
+    align-content: center;
+}
+#contact nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+#contact nav img{
+    max-width: 10em;
+    max-height: 10em;
+}
+@keyframes bounce {
+    0%   { transform: translateY(0);}
+    50%  { transform: translateY(-25px);}
+    100% { transform: translateY(0);}
+}
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+#contact nav img:hover{
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    transform-origin: center;
+    height: 10em;
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+#pfpimg{
+    width: 30vh;
+}
+
+#CookieClick{
+    background-color: antiquewhite;
+    text-align: left;
+    font-family: 'Architects Daughter', cursive;
+    height: 5vw;
+    width: 100vw;
+}
+#CookieClick p{
+    font-family: 'Architects Daughter', cursive;
+    color: black;
+    font-size: 1em;
+    text-align: center;
+}
+
+#Bottom{
+    width: 100%;
+    background-color: #E8FFC2;
+    height: 4em;
+}
+
+#Bottom p{
+    margin-top: 2.5vw;
+}
+
+/*Id'd Texts*/
+
+#Name{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10px;
+    color: #E8FFC2;
+    font-size: 5em;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.Back2Top{
+    position: fixed;
+    right: 4%;
+    bottom: 7%;
+}
+
+/*Images*/
+#Server_Poster{
+    position: absolute;
+    width: 250px;
+    right: 30%;
+    top: 2%;
+}
+
+#Fallout76{
+    position: absolute;
+    width: 250px;
+    top: 280px;
+    left: 126px;
+}
+
+#Unitypng{
+    position: absolute;
+    width: 450px;
+    bottom: 50px;
+    right: 450px;
+}
+
+.linuxpng{
+    height: 100px;
+    width: 100px;
+}
+
+#CookieClick button{
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1em;
+    transition-duration: 0.2s;
+    background-color: #2FA4FF;
+    border-style: none;
+    height: 34px;
+    width: 24%;
+    position: absolute;
+    left: 38vw;
+}
+#CookieClick button:hover{
+    background-color: aliceblue;
+}
