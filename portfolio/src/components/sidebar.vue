@@ -1,5 +1,10 @@
+<script setup>
+import SbButton from "./sbButton.vue";
+</script>
+
 <template>
   <div class="sidebar">
+    <sb-button g-icon="home" name="Home" />
   </div>
 </template>
 
@@ -18,14 +23,15 @@ export default {
 <style scoped>
 .sidebar{
   height: 100%;
-  width: 70px;
+  width: 9%;
   border: #0d0d0d solid 1px;
-  /*position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
-  margin-right: 30px;*/
+  margin-right: 30px;
   display: flex;
   flex-direction: row;
-
+  justify-content: center;
 }
+
 </style>
