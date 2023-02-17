@@ -14,6 +14,7 @@ import Live2d from "../../node_modules/vue-live2d/src/index.vue"
     <live2d
         :style="style"
         :model="['Potion-Maker/Pio', 'school-2017-costume-yellow']"
+
     ></live2d>
   </div>
 </template>
@@ -22,7 +23,9 @@ import Live2d from "../../node_modules/vue-live2d/src/index.vue"
 export default {
   name: "container",
   data(){
-    style: 'position: fixed; bottom: 0; right: 0;'
+    return{
+      style: 'position: fixed; bottom: 0; right: 0;'
+    }
   }
 }
 </script>

@@ -4,7 +4,7 @@ import SbButton from "./sbButton.vue";
 
 <template>
   <div class="sidebar">
-    <sb-button g-icon="home" name="Home" />
+    <sb-button g-icon="home" name="Home" @click="this.emitter.emit('showmsg', 'Sending to homepage')" @mouseover="this.emitter.emit('showmsg', 'Send to homepage?')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
   </div>
 </template>
 
@@ -12,7 +12,9 @@ import SbButton from "./sbButton.vue";
 export default {
   name: "sidebar",
   data(){
+    return{
 
+    }
   },
   methods: {
 
