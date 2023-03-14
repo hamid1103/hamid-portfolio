@@ -1,7 +1,6 @@
 <script setup>
 /*import HelloWorld from './components/HelloWorld.vue'*/
 import Sidebar from "./components/sidebar.vue";
-import container from "./components/container.vue";
 import Container from "./components/container.vue";
 </script>
 <!--app root-->
