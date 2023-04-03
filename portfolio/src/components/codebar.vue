@@ -46,7 +46,16 @@ export default {
 
 <style scoped>
 .dbcodebar{
-  height: 100%;
-  width: 100%;
+  height: 3vh;
+  width: 91vw;
 }
+
+.dbcodebar p{
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
 </style>

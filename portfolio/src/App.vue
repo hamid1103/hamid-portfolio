@@ -3,6 +3,7 @@
 import Sidebar from "./components/sidebar.vue";
 import Container from "./components/container.vue";
 </script>
+
 <!--app root-->
 <template>
 
@@ -16,11 +17,11 @@ import Container from "./components/container.vue";
 
 <style scoped>
 .root{
-  min-width: 100%;
-  min-height: 100%;
+  width: 100%;
+  height: 100%;
   display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: left;
+  flex-direction: row;
+  align-content: space-between;
+  justify-content: space-between;
 }
 </style>

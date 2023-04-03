@@ -1,7 +1,7 @@
 <template>
-  <div class="sbb" @click="iwasclicky">
+  <a class="sbb" @click="iwasclicky">
     <span class="material-icons sbico">{{ gIcon }}</span>
-  </div>
+  </a>
 </template>
 
 <script>

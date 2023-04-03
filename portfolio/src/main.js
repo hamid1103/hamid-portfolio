@@ -3,7 +3,9 @@ import './style.css'
 import App from './App.vue'
 import mitt from 'mitt'
 //this just loads the app into the html
+
 const emitter = mitt()
 const app = createApp(App)
+
 app.config.globalProperties.emitter = emitter;
 app.mount('#app');

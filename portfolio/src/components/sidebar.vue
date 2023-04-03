@@ -4,7 +4,8 @@ import SbButton from "./sbButton.vue";
 
 <template>
   <div class="sidebar">
-    <sb-button g-icon="home" name="Home" @click="this.emitter.emit('showmsg', 'Sending to homepage')" @mouseover="this.emitter.emit('showmsg', 'Send to homepage?')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
+    <sb-button href="#/" g-icon="home" name="Home" @click="this.emitter.emit('showmsg', 'Sending to homepage')" @mouseover="this.emitter.emit('showmsg', 'Send to homepage?')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
+    <sb-button href="#/skills" g-icon="star_half" name="Skills" @click="this.emitter.emit('showmsg', 'Sending to skills')" @mouseover="this.emitter.emit('showmsg', 'Check out my skills list')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
   </div>
 </template>
 
@@ -24,16 +25,12 @@ export default {
 
 <style scoped>
 .sidebar{
-  height: 100%;
-  width: 9%;
-  border: #0d0d0d solid 1px;
-  position: fixed;
-  left: 0;
-  top: 0;
-  margin-right: 30px;
+  min-height: 100vh;
+  min-width: 8vw;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
+  background-color: gray;
+  justify-content: left;
 }
 
 </style>
