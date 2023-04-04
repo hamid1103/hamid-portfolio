@@ -1,6 +1,5 @@
 <script setup>
 import Codebar from "./codebar.vue";
-import Live2d from "../../node_modules/vue-live2d/src/index.vue"
 </script>
 
 <template>
@@ -22,12 +21,14 @@ import ContentSkills from "./ContentSkills.vue";
 import ContentNotfound from "./ContentNotfound.vue";
 import ContentAboutMe from "./ContentAboutMe.vue";
 import contentPlatforms from "./ContentPlatforms.vue";
+import ContentProjects from "./ContentProjects.vue"
 
 const routes = {
   '/': ContentHome,
   '/skills': ContentSkills,
   '/about': ContentAboutMe,
-  '/platforms': contentPlatforms
+  '/platforms': contentPlatforms,
+  '/projects': ContentProjects
 }
 export default {
   data(){

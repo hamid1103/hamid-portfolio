@@ -27,19 +27,22 @@ export default {
 </script>
 
 <style scoped>
+@import "@catppuccin/palette/style";
 .sbico{
   font-size: 4em;
 }
 .sbb{
-  background-color: #363636;
+  background-color: var(--ctp-mocha-base);
   color: white;
   height: 4em;
-  border: #1a1a1a solid 4px;
+  border: var(--ctp-mocha-mantle) solid 4px;
   margin: 6px;
   box-shadow: 3px 5px #292929;
 }
 .sbb:hover{
-  background-color: slategrey;
+  background-color: var(--ctp-mocha-overlay0);
+  border: var(--ctp-mocha-overlay1) solid 4px;
+  box-shadow: 3px 5px var(--ctp-mocha-surface1);
 }
 
 </style>

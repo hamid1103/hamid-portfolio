@@ -27,12 +27,13 @@ export default {
 </script>
 
 <style scoped>
+@import "@catppuccin/palette/style";
 .sidebar{
   min-height: 100vh;
   min-width: 8vw;
   display: flex;
   flex-direction: column;
-  background-color: gray;
+  background-color: var(--ctp-mocha-overlay0);
   justify-content: center;
 }
 
