@@ -6,6 +6,9 @@
       <div class="platform" @click="openInNewTab('https://www.twitch.tv/arcadianfl4m3')" @mouseover="this.emitter.emit('showmsg', 'https://www.twitch.tv/arcadianfl4m3')" @mouseleave="this.emitter.emit('showmsg', '')">
         <img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png" alt="Twitch">
       </div>
+      <div class="platform" @click="openInNewTab('https://medal.tv/u/ArcadianFl4m3')" @mouseover="this.emitter.emit('showmsg', 'https://medal.tv/u/ArcadianFl4m3')" @mouseleave="this.emitter.emit('showmsg', '')">
+        <img src="https://pressreleases.triplepointpr.com/wp-content/uploads/new-medal-logo.png" alt="Medal">
+      </div>
   </div>
 </template>
 
