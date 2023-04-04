@@ -7,15 +7,12 @@ import Live2d from "../../node_modules/vue-live2d/src/index.vue"
   <div class="contained">
     <codebar></codebar>
   <div class="content_container">
-    <component :is="currentView" />
+    <transition name="fade">
+      <component :is="currentView" />
+    </transition>
+
   </div>
-  <div class="kanban">
-    <live2d
-        :style="style"
-        :model="['Potion-Maker/Pio', 'school-2017-costume-yellow']"
-        direction="left"
-    ></live2d>
-  </div>
+
   </div>
 </template>
 
@@ -23,10 +20,14 @@ import Live2d from "../../node_modules/vue-live2d/src/index.vue"
 import ContentHome from "./ContentHome.vue";
 import ContentSkills from "./ContentSkills.vue";
 import ContentNotfound from "./ContentNotfound.vue";
+import ContentAboutMe from "./ContentAboutMe.vue";
+import contentPlatforms from "./ContentPlatforms.vue";
 
 const routes = {
   '/': ContentHome,
-  '/skills': ContentSkills
+  '/skills': ContentSkills,
+  '/about': ContentAboutMe,
+  '/platforms': contentPlatforms
 }
 export default {
   data(){
@@ -50,6 +51,17 @@ export default {
 </script>
 
 <style scoped>
+@import "@catppuccin/palette/style";
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease;
+}
+
+.fade-enter-from,
+.fade-leave-to {
+  opacity: 0;
+}
 .contained{
   min-width: 91%;
   min-height: 100%;
@@ -59,16 +71,11 @@ export default {
 .codebarcontainer{
   height: 3vh;
   width: 91vw;
-  background-color: #0d0d0d;
+  background-color: var(--ctp-mocha-surface0);
 }
 .content_container{
   height: 97vh;
   width: 91vw;
-  background-color: #363636;
-}
-.kanban{
-  position: fixed;
-  bottom: 0;
-  left: 1vw;
+  background-color: var(--ctp-mocha-surface1);
 }
 </style>
