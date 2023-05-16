@@ -34,7 +34,7 @@ export default {
 .sbb{
   background-color: var(--ctp-mocha-base);
   color: white;
-  height: 4em;
+  height: 10%;
   border: var(--ctp-mocha-mantle) solid 4px;
   margin: 6px;
   box-shadow: 3px 5px #292929;
