@@ -18,9 +18,6 @@ export default {
   methods: {
     iwasclicky(){
       console.log(this.name + ' was Clicky');
-    },
-    sendmessage(msg){
-      this.emitter.emit('showmsg', msg)
     }
   }
 }
