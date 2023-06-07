@@ -83,9 +83,8 @@ font-family: 'Roboto', sans-serif;
 }
 #HomeContent #profilefoto{
   margin-top: 1vh;
-  border: black 1px solid;
+  border: black 2px solid;
   border-radius: 50% !important;
-  box-shadow: 9px 9px black;
 }
 #HomeContent h1{
   position: relative;

@@ -35,6 +35,7 @@ export default {
   flex-direction: column;
   background-color: var(--ctp-mocha-overlay0);
   justify-content: center;
+  justify-items: center;
 }
 
 </style>
