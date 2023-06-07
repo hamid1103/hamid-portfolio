@@ -1,5 +1,5 @@
 <template>
-  <a class="sbb" @click="iwasclicky">
+  <a class="sbb" @click="iwasclicky" @mouseover="this.emitter.emit('showmsg', this.$props.msg)" @mouseleave="this.emitter.emit('showmsg', '')">
     <span class="material-icons sbico">{{ gIcon }}</span>
   </a>
 </template>
@@ -10,7 +10,8 @@ export default {
   props: {
     gIcon: String,
     name: String,
-    desc: String
+    desc: String,
+    msg: String
   },
   data(){
 
@@ -18,6 +19,8 @@ export default {
   methods: {
     iwasclicky(){
       console.log(this.name + ' was Clicky');
+    },
+    sendCBM(){
     }
   }
 }

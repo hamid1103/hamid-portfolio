@@ -4,11 +4,11 @@ import SbButton from "./sbButton.vue";
 
 <template>
   <div class="sidebar">
-    <sb-button href="#/" g-icon="home" name="Home" @click="this.emitter.emit('showmsg', 'Sending to homepage')" @mouseover="this.emitter.emit('showmsg', 'Send to homepage?')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
-    <sb-button href="#/skills" g-icon="star_half" name="Skills" @click="this.emitter.emit('showmsg', 'Sending to skills')" @mouseover="this.emitter.emit('showmsg', 'Check out my skills list!')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
-    <sb-button href="#/about" g-icon="account_circle" name="AboutMe" @click="this.emitter.emit('showmsg', 'Sending to About Me')" @mouseover="this.emitter.emit('showmsg', 'About Me!')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
-    <sb-button href="#/platforms" g-icon="badge" name="Platforms" @click="this.emitter.emit('showmsg', 'Sending to Platforms')" @mouseover="this.emitter.emit('showmsg', 'Check me out on other platforms!')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
-    <sb-button href="#/projects" g-icon="work_history" name="Platforms" @click="this.emitter.emit('showmsg', 'Sending to projects page')" @mouseover="this.emitter.emit('showmsg', 'Check out my work!')" @mouseleave="this.emitter.emit('showmsg', '')"> </sb-button>
+    <sb-button href="#/" g-icon="home" name="Home" msg='Send to homepage?'> </sb-button>
+    <sb-button href="#/skills" g-icon="star_half" name="Skills" msg="Check out my skills!"> </sb-button>
+    <sb-button href="#/about" g-icon="account_circle" name="AboutMe" msg="About me!"> </sb-button>
+    <sb-button href="#/platforms" g-icon="badge" name="Platforms" msg="Check me out on other platforms!" > </sb-button>
+    <sb-button href="#/projects" g-icon="work_history" name="Platforms" msg="Check out my work!" > </sb-button>
   </div>
 </template>
 
