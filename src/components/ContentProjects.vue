@@ -62,6 +62,18 @@
       </div>
 
     </div>
+    <div id="CasPok">
+      <h3>Casual Poker with friends</h3>
+      <div id="CasPok" class="content">
+        <p>Ik ben in mijn vrije tijd bezig geweest met een free to play poker game om te oefenen met het maken van webgames en gebruiken van websockets.
+          Heel ver ben ik niet echt. De server werkt, maar ik moet nu zorgen voor de multiplayer... en de poker game zelf.
+        </p>
+        <!--        <div id="imgCaveman" class="imageg">
+                  <img src="../assets/20230612_10h11m52s_grim.png">
+                </div>-->
+      </div>
+
+    </div>
   </div>
 
 </template>
