@@ -28,12 +28,18 @@ export default {
 
 <style scoped>
 @import "@catppuccin/palette/style";
+
 .sbico{
   font-size: 4em;
 }
 .sbb{
   background-color: var(--ctp-mocha-base);
   color: white;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
   height: 10%;
   border: var(--ctp-mocha-mantle) solid 4px;
   margin: 6px;

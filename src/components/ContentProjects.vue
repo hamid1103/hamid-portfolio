@@ -24,14 +24,15 @@
     <div id="Caveman">
       <h3>Cave, Man!</h3>
       <div id="CavemanCont" class="content">
-        <p>Voor programeren 4 had ik een game gemaakt waar een man tijdens een illegale job, met zijn vrienden naar ondergrondse
-          wereld gestuurd werden. In die wereld zijn er meerdere lagen waar elke laag een andere koninkrijk/civilization woont. De hoofdcharacters proberen te ontsnappen
+        <p>Voor programeren 4 had ik een demo game gemaakt waar een man tijdens een illegale job, met zijn vrienden naar ondergrondse
+          wereld gestuurd werden. Het originele idee: In die wereld zijn er meerdere lagen waar elke laag een andere koninkrijk/civilization woont. De hoofdcharacters proberen te ontsnappen
           en de mensen te bevrijden.
-
-          De game is een action platformer game met dungeons erin die een beetje zoals de black ops zombie maps werken. Het is een webgame gemaakt in een library genoemdt ExcaliburJS.
+          Het is een webgame gemaakt in de ExcaliburJS library.
+          <br>
+          <a href="https://hamid1103.github.io/Programmeren4RPG/">Speel de game hier</a>
         </p>
-        <div id="imgCaveman">
-          <!--          <img src="../assets/swoard.png">-->
+        <div id="imgCaveman" class="imageg">
+          <img src="../assets/20230612_10h11m52s_grim.png">
         </div>
       </div>
 
@@ -50,7 +51,17 @@
       </div>
 
     </div>
+    <div id="CLE4">
+      <h3>CLE 4 Game</h3>
+      <div id="CLE4Cont" class="content">
+        <p>Voor CLE4 heb ik met mijn team een game gemaakt met arcade controls. TODO: UPDATE
+        </p>
+<!--        <div id="imgCaveman" class="imageg">
+          <img src="../assets/20230612_10h11m52s_grim.png">
+        </div>-->
+      </div>
 
+    </div>
   </div>
 
 </template>
