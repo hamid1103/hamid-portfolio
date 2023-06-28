@@ -52,13 +52,18 @@
 
     </div>
     <div id="CLE4">
-      <h3>CLE 4 Game</h3>
+      <h3>Schiejump</h3>
       <div id="CLE4Cont" class="content">
-        <p>Voor CLE4 heb ik met mijn team een game gemaakt met arcade controls. TODO: UPDATE
+        <p>Voor CLE4 heb ik met mijn team een jumper arcade game gemaakt met arcade control support. De game is local multiplayer 1v1. Er zijn items, enemies en verschillende soorten platformen.<br>
+          De scores van players worden in een database opgeslagen.
+          <br>
+          <a href="https://github.com/hamid1103/CLE4Game">Github Repo</a>
+          <br>
+          <a href="">Hier kan je het spelen.</a>
         </p>
-<!--        <div id="imgCaveman" class="imageg">
-          <img src="../assets/20230612_10h11m52s_grim.png">
-        </div>-->
+    <div id="imgCLE4" class="imageg">
+          <img src="../assets/cle4game.png">
+        </div>
       </div>
 
     </div>
