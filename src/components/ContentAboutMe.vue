@@ -1,6 +1,6 @@
 <template>
 <div id="AboutContent">
-  <h1>Deze pagina gaat over mij</h1>
+  <h1 style="color: white;">Deze pagina gaat over mij</h1>
   <p>Ik ben Abdel Hamid saib, een {{getAge}} jaar oude CMGT student op Hogeschool Rotterdam.
   Ik was al bezig met computers sinds ik 5 was, met basis excel en word. Op een dag vroeg ik me pa hoe ik games moest maken.
     Dus hij zette mij voor de pc en installeerde game maker studio.
@@ -46,6 +46,7 @@ export default {
 
 <style scoped>
 #AboutContent{
+  color: white;
   width: 100%;
   height: 100%;
   overflow-y: scroll;
@@ -54,7 +55,11 @@ export default {
   align-items: center;
 }
 
+#AboutContent h1{
+  color: white;
+}
 #AboutContent p{
+  color: white;
   width: 50vw;
 }
 
@@ -62,7 +67,11 @@ export default {
   display: flex;
   flex-direction: row;
 }
+#music h1{
+  color: white;
+}
 #music p{
+  color:white;
   width: 20vw;
   margin: 3em;
 }

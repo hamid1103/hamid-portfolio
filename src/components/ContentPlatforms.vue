@@ -1,13 +1,13 @@
 <template>
   <div id="platformsContent">
       <div class="platform" @click="openInNewTab('https://github.com/hamid1103')" @mouseover="this.emitter.emit('showmsg', 'https://github.com/hamid1103')" @mouseleave="this.emitter.emit('showmsg', '')">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github">
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="Github" class="img-responsive">
       </div>
       <div class="platform" @click="openInNewTab('https://www.twitch.tv/arcadianfl4m3')" @mouseover="this.emitter.emit('showmsg', 'https://www.twitch.tv/arcadianfl4m3')" @mouseleave="this.emitter.emit('showmsg', '')">
-        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png" alt="Twitch">
+        <img src="https://cdn-icons-png.flaticon.com/512/5968/5968819.png" alt="Twitch" class="img-responsive">
       </div>
       <div class="platform" @click="openInNewTab('https://medal.tv/u/ArcadianFl4m3')" @mouseover="this.emitter.emit('showmsg', 'https://medal.tv/u/ArcadianFl4m3')" @mouseleave="this.emitter.emit('showmsg', '')">
-        <img src="https://pressreleases.triplepointpr.com/wp-content/uploads/new-medal-logo.png" alt="Medal">
+        <img src="https://pressreleases.triplepointpr.com/wp-content/uploads/new-medal-logo.png" alt="Medal" class="img-responsive">
       </div>
   </div>
 </template>
@@ -38,8 +38,8 @@ export default {
   background-color: #c4c5c0;
 }
 .platform img{
-  width: 15vw;
-  height: 15vh;
+  width: 13vw;
+  height: 13vh;
   object-fit: contain;
 }
 .platform h1{

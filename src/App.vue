@@ -25,3 +25,9 @@ import Container from "./components/container.vue";
   justify-content: space-between;
 }
 </style>
+
+<style>
+@import "./assets/css/spectre.min.css";
+@import "./assets/css/spectre-exp.min.css";
+@import "./assets/css/spectre-icons.min.css";
+</style>

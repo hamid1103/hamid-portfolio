@@ -77,6 +77,7 @@ font-family: 'Roboto', sans-serif;
 }
 
 #HomeContent{
+  color: white;
   width: 100%;
   height: 100%;
   overflow-y: scroll;
