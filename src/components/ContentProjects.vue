@@ -79,7 +79,7 @@
             <br>
             <a href="https://github.com/hamid1103/CLE4Game">Github Repo</a>
             <br>
-            <a href="">Hier kan je het spelen.</a>
+            <a href="https://hamid1103.github.io/CLE4Game/">Hier kan je het spelen.</a>
           </div>
         </div>
 

@@ -1,6 +1,6 @@
 <template>
   <div class="dbcodebar" :style="bgcolor">
-    <p>{{ message }}</p>
+    <p style="color: white">{{ message }}</p>
   </div>
 </template>
 
