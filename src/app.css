@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-3d {
+    text-transform: uppercase;
+    font-family: verdana;
+    font-weight: 700;
+    color: #f5f5f5;
+    text-shadow: -1px -1px 1px #919191,
+    -2px -2px 1px #919191,
+    -3px -3px 1px #919191,
+    -4px -4px 1px #919191,
+    -5px -5px 1px #919191,
+    -6px -6px 1px #919191,
+    -7px -7px 1px #919191,
+    -8px -8px 1px #919191,
+    -9px -9px 1px #919191,
+    -10px -10px 1px #919191,
+    -13px -18px 65px #ffd700
+}
+
+.is-active{
+
+}
