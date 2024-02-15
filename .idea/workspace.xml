@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9203d55c-b4da-4d68-82e2-e701b8f98339" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/static/Unity-Icon.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+layout.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+layout.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/routes/CusSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CusSection.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/Hero_Desktop.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/gits/hamid-portfolio&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/gits/hamid-portfolio/static&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -59,6 +59,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\gits\hamid-portfolio\static" />
       <recent name="$PROJECT_DIR$/portfolio/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -83,7 +84,11 @@
       <workItem from="1707578883634" duration="2377000" />
       <workItem from="1707646769433" duration="10088000" />
       <workItem from="1707689060265" duration="22000" />
-      <workItem from="1707689172951" duration="2868000" />
+      <workItem from="1707689172951" duration="3270000" />
+      <workItem from="1707730966871" duration="10296000" />
+      <workItem from="1707772073107" duration="3206000" />
+      <workItem from="1707837204683" duration="681000" />
+      <workItem from="1707907760631" duration="749000" />
     </task>
     <servers />
   </component>

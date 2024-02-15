@@ -22,6 +22,10 @@
     -11px -11px 13px #ffd700
 }
 
+.BG-Custom_Gradiant{
+    background: linear-gradient(to bottom, #030712 0%,#111827 100%);
+}
+
 .is-active{
 
 }
