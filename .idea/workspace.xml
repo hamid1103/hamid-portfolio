@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9203d55c-b4da-4d68-82e2-e701b8f98339" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/static/Unity-Icon.webp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/+page.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/CusSection.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/CusSection.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/Hero_Desktop.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +84,8 @@
       <workItem from="1707772073107" duration="3206000" />
       <workItem from="1707837204683" duration="681000" />
       <workItem from="1707907760631" duration="749000" />
+      <workItem from="1710232534048" duration="1350000" />
+      <workItem from="1710421124417" duration="15000" />
     </task>
     <servers />
   </component>
